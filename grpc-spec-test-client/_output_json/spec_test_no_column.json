@@ -1,0 +1,15 @@
+{
+  "spec_test_no_column.json": {
+    "optional_spec": {},
+    "oneof_spec": {},
+    "wrapper_spec": {},
+    "repeated_spec": {
+      "str": "[]",
+      "bool": "[]",
+      "int32": "[]",
+      "bytes": "[]",
+      "enum": "[]"
+    },
+    "scalar_spec": {}
+  }
+}
