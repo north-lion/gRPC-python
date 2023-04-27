@@ -25,9 +25,11 @@ def run():
 
 def _json_load_and_request(stub):
     # jsonフォルダ内に配置したjsonデータを全て読み込み、RPCメッセージにパースしてRPCメソッド呼び出し
-    default_folder_path = os.path.join(FILE_DIR_PATH, "..", "_input_json")
+    # default_folder_path = os.path.join(FILE_DIR_PATH, "..", "_input_json")
+    default_folder_path = os.path.join(FILE_DIR_PATH, "..", "_invalid_input_json")
     file_paths = glob.glob(default_folder_path + "/**/" + "*", recursive=True)
     for file_path in file_paths:
+        print("input_file_path:" + file_path)
         file_name = os.path.basename(file_path)
         with open(file_path) as json_file:
             req_dict = json.load(json_file)

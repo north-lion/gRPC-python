@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 from google.protobuf import wrappers_pb2 as google_dot_protobuf_dot_wrappers__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x63heck_type_spec.proto\x12\rchecktypespec\x1a\x1egoogle/protobuf/wrappers.proto\"\x9d\t\n\x0c\x43heckRequest\x12;\n\x0bscalar_spec\x18\x01 \x01(\x0b\x32&.checktypespec.CheckRequest.ScalarSpec\x12?\n\roptional_spec\x18\x02 \x01(\x0b\x32(.checktypespec.CheckRequest.OptionalSpec\x12=\n\x0cwrapper_spec\x18\x03 \x01(\x0b\x32\'.checktypespec.CheckRequest.WrapperSpec\x12\x39\n\noneof_spec\x18\x04 \x01(\x0b\x32%.checktypespec.CheckRequest.OneofSpec\x12?\n\rrepeated_spec\x18\x05 \x01(\x0b\x32(.checktypespec.CheckRequest.RepeatedSpec\x1au\n\nScalarSpec\x12\x0b\n\x03str\x18\x01 \x01(\t\x12\r\n\x05int32\x18\x02 \x01(\x05\x12\x0c\n\x04\x62ool\x18\x03 \x01(\x08\x12\r\n\x05\x62ytes\x18\x04 \x01(\x0c\x12.\n\x04\x65num\x18\x05 \x01(\x0e\x32 .checktypespec.CheckRequest.Enum\x1a\xbe\x01\n\x0cOptionalSpec\x12\x10\n\x03str\x18\x01 \x01(\tH\x00\x88\x01\x01\x12\x12\n\x05int32\x18\x02 \x01(\x05H\x01\x88\x01\x01\x12\x11\n\x04\x62ool\x18\x03 \x01(\x08H\x02\x88\x01\x01\x12\x12\n\x05\x62ytes\x18\x04 \x01(\x0cH\x03\x88\x01\x01\x12\x33\n\x04\x65num\x18\x05 \x01(\x0e\x32 .checktypespec.CheckRequest.EnumH\x04\x88\x01\x01\x42\x06\n\x04_strB\x08\n\x06_int32B\x07\n\x05_boolB\x08\n\x06_bytesB\x07\n\x05_enum\x1a\xba\x01\n\x0bWrapperSpec\x12)\n\x03str\x18\x01 \x01(\x0b\x32\x1c.google.protobuf.StringValue\x12*\n\x05int32\x18\x02 \x01(\x0b\x32\x1b.google.protobuf.Int32Value\x12(\n\x04\x62ool\x18\x03 \x01(\x0b\x32\x1a.google.protobuf.BoolValue\x12*\n\x05\x62ytes\x18\x04 \x01(\x0b\x32\x1b.google.protobuf.BytesValue\x1a\xbb\x01\n\tOneofSpec\x12\r\n\x03str\x18\x01 \x01(\tH\x00\x12\x0f\n\x05int32\x18\x02 \x01(\x05H\x01\x12\x0e\n\x04\x62ool\x18\x03 \x01(\x08H\x02\x12\x0f\n\x05\x62ytes\x18\x04 \x01(\x0cH\x03\x12\x30\n\x04\x65num\x18\x05 \x01(\x0e\x32 .checktypespec.CheckRequest.EnumH\x04\x42\t\n\x07one_strB\x0b\n\tone_int32B\n\n\x08one_boolB\x0b\n\tone_bytesB\n\n\x08one_enum\x1aw\n\x0cRepeatedSpec\x12\x0b\n\x03str\x18\x01 \x03(\t\x12\r\n\x05int32\x18\x02 \x03(\x05\x12\x0c\n\x04\x62ool\x18\x03 \x03(\x08\x12\r\n\x05\x62ytes\x18\x04 \x03(\x0c\x12.\n\x04\x65num\x18\x05 \x03(\x0e\x32 .checktypespec.CheckRequest.Enum\"(\n\x04\x45num\x12\x11\n\rNOT_SPECIFIED\x10\x00\x12\r\n\tSPECIFIED\x10\x01\"\x1d\n\nCheckReply\x12\x0f\n\x07message\x18\x01 \x01(\t2^\n\rCheckTypeSpec\x12M\n\x11UploadCheckResult\x12\x1b.checktypespec.CheckRequest\x1a\x19.checktypespec.CheckReply\"\x00\x42\x1e\n\x1aio.grpc.tool.checktypespecP\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x63heck_type_spec.proto\x12\rchecktypespec\x1a\x1egoogle/protobuf/wrappers.proto\"\xd7\r\n\x0c\x43heckRequest\x12;\n\x0bscalar_spec\x18\x01 \x01(\x0b\x32&.checktypespec.CheckRequest.ScalarSpec\x12?\n\roptional_spec\x18\x02 \x01(\x0b\x32(.checktypespec.CheckRequest.OptionalSpec\x12=\n\x0cwrapper_spec\x18\x03 \x01(\x0b\x32\'.checktypespec.CheckRequest.WrapperSpec\x12\x39\n\noneof_spec\x18\x04 \x01(\x0b\x32%.checktypespec.CheckRequest.OneofSpec\x12?\n\rrepeated_spec\x18\x05 \x01(\x0b\x32(.checktypespec.CheckRequest.RepeatedSpec\x1a\xab\x01\n\nScalarSpec\x12\x0b\n\x03str\x18\x01 \x01(\t\x12\r\n\x05int32\x18\x02 \x01(\x05\x12\x0c\n\x04\x62ool\x18\x03 \x01(\x08\x12\r\n\x05\x62ytes\x18\x04 \x01(\x0c\x12.\n\x04\x65num\x18\x05 \x01(\x0e\x32 .checktypespec.CheckRequest.Enum\x12\x34\n\x07message\x18\x06 \x01(\x0b\x32#.checktypespec.CheckRequest.Message\x1a\x85\x02\n\x0cOptionalSpec\x12\x10\n\x03str\x18\x01 \x01(\tH\x00\x88\x01\x01\x12\x12\n\x05int32\x18\x02 \x01(\x05H\x01\x88\x01\x01\x12\x11\n\x04\x62ool\x18\x03 \x01(\x08H\x02\x88\x01\x01\x12\x12\n\x05\x62ytes\x18\x04 \x01(\x0cH\x03\x88\x01\x01\x12\x33\n\x04\x65num\x18\x05 \x01(\x0e\x32 .checktypespec.CheckRequest.EnumH\x04\x88\x01\x01\x12\x39\n\x07message\x18\x06 \x01(\x0b\x32#.checktypespec.CheckRequest.MessageH\x05\x88\x01\x01\x42\x06\n\x04_strB\x08\n\x06_int32B\x07\n\x05_boolB\x08\n\x06_bytesB\x07\n\x05_enumB\n\n\x08_message\x1a\xba\x01\n\x0bWrapperSpec\x12)\n\x03str\x18\x01 \x01(\x0b\x32\x1c.google.protobuf.StringValue\x12*\n\x05int32\x18\x02 \x01(\x0b\x32\x1b.google.protobuf.Int32Value\x12(\n\x04\x62ool\x18\x03 \x01(\x0b\x32\x1a.google.protobuf.BoolValue\x12*\n\x05\x62ytes\x18\x04 \x01(\x0b\x32\x1b.google.protobuf.BytesValue\x1a\x99\x04\n\tOneofSpec\x12\x15\n\x0bstr_primary\x18\x01 \x01(\tH\x00\x12\x17\n\rstr_secondary\x18\x02 \x01(\tH\x00\x12\x17\n\rint32_primary\x18\x03 \x01(\x05H\x01\x12\x19\n\x0fint32_secondary\x18\x04 \x01(\x05H\x01\x12\x16\n\x0c\x62ool_primary\x18\x05 \x01(\x08H\x02\x12\x18\n\x0e\x62ool_secondary\x18\x06 \x01(\x08H\x02\x12\x17\n\rbytes_primary\x18\x07 \x01(\x0cH\x03\x12\x19\n\x0f\x62ytes_secondary\x18\x08 \x01(\x0cH\x03\x12\x38\n\x0c\x65num_primary\x18\t \x01(\x0e\x32 .checktypespec.CheckRequest.EnumH\x04\x12:\n\x0e\x65num_secondary\x18\n \x01(\x0e\x32 .checktypespec.CheckRequest.EnumH\x04\x12>\n\x0fmessage_primary\x18\x0b \x01(\x0b\x32#.checktypespec.CheckRequest.MessageH\x05\x12@\n\x11message_secondary\x18\x0c \x01(\x0b\x32#.checktypespec.CheckRequest.MessageH\x05\x42\t\n\x07one_strB\x0b\n\tone_int32B\n\n\x08one_boolB\x0b\n\tone_bytesB\n\n\x08one_enumB\r\n\x0bone_message\x1a\xad\x01\n\x0cRepeatedSpec\x12\x0b\n\x03str\x18\x01 \x03(\t\x12\r\n\x05int32\x18\x02 \x03(\x05\x12\x0c\n\x04\x62ool\x18\x03 \x03(\x08\x12\r\n\x05\x62ytes\x18\x04 \x03(\x0c\x12.\n\x04\x65num\x18\x05 \x03(\x0e\x32 .checktypespec.CheckRequest.Enum\x12\x34\n\x07message\x18\x06 \x03(\x0b\x32#.checktypespec.CheckRequest.Message\x1a%\n\x07Message\x12\x0b\n\x03str\x18\x01 \x01(\t\x12\r\n\x05int32\x18\x02 \x01(\x05\"(\n\x04\x45num\x12\x11\n\rNOT_SPECIFIED\x10\x00\x12\r\n\tSPECIFIED\x10\x01\"\x1d\n\nCheckReply\x12\x0f\n\x07message\x18\x01 \x01(\t2^\n\rCheckTypeSpec\x12M\n\x11UploadCheckResult\x12\x1b.checktypespec.CheckRequest\x1a\x19.checktypespec.CheckReply\"\x00\x42\x1e\n\x1aio.grpc.tool.checktypespecP\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'check_type_spec_pb2', globals())
@@ -23,21 +23,23 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   DESCRIPTOR._options = None
   DESCRIPTOR._serialized_options = b'\n\032io.grpc.tool.checktypespecP\001'
   _CHECKREQUEST._serialized_start=73
-  _CHECKREQUEST._serialized_end=1254
-  _CHECKREQUEST_SCALARSPEC._serialized_start=402
-  _CHECKREQUEST_SCALARSPEC._serialized_end=519
-  _CHECKREQUEST_OPTIONALSPEC._serialized_start=522
-  _CHECKREQUEST_OPTIONALSPEC._serialized_end=712
-  _CHECKREQUEST_WRAPPERSPEC._serialized_start=715
-  _CHECKREQUEST_WRAPPERSPEC._serialized_end=901
-  _CHECKREQUEST_ONEOFSPEC._serialized_start=904
-  _CHECKREQUEST_ONEOFSPEC._serialized_end=1091
-  _CHECKREQUEST_REPEATEDSPEC._serialized_start=1093
-  _CHECKREQUEST_REPEATEDSPEC._serialized_end=1212
-  _CHECKREQUEST_ENUM._serialized_start=1214
-  _CHECKREQUEST_ENUM._serialized_end=1254
-  _CHECKREPLY._serialized_start=1256
-  _CHECKREPLY._serialized_end=1285
-  _CHECKTYPESPEC._serialized_start=1287
-  _CHECKTYPESPEC._serialized_end=1381
+  _CHECKREQUEST._serialized_end=1824
+  _CHECKREQUEST_SCALARSPEC._serialized_start=403
+  _CHECKREQUEST_SCALARSPEC._serialized_end=574
+  _CHECKREQUEST_OPTIONALSPEC._serialized_start=577
+  _CHECKREQUEST_OPTIONALSPEC._serialized_end=838
+  _CHECKREQUEST_WRAPPERSPEC._serialized_start=841
+  _CHECKREQUEST_WRAPPERSPEC._serialized_end=1027
+  _CHECKREQUEST_ONEOFSPEC._serialized_start=1030
+  _CHECKREQUEST_ONEOFSPEC._serialized_end=1567
+  _CHECKREQUEST_REPEATEDSPEC._serialized_start=1570
+  _CHECKREQUEST_REPEATEDSPEC._serialized_end=1743
+  _CHECKREQUEST_MESSAGE._serialized_start=1745
+  _CHECKREQUEST_MESSAGE._serialized_end=1782
+  _CHECKREQUEST_ENUM._serialized_start=1784
+  _CHECKREQUEST_ENUM._serialized_end=1824
+  _CHECKREPLY._serialized_start=1826
+  _CHECKREPLY._serialized_end=1855
+  _CHECKTYPESPEC._serialized_start=1857
+  _CHECKTYPESPEC._serialized_end=1951
 # @@protoc_insertion_point(module_scope)

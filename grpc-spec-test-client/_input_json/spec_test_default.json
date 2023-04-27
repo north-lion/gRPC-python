@@ -4,14 +4,16 @@
         "int32": 0,
         "bool": false,
         "bytes": "",
-        "enum": 0
+        "enum": 0,
+        "message":{}
     },
     "optional_spec": {
         "str": "",
         "int32": 0,
         "bool": false,
         "bytes": "",
-        "enum": 0
+        "enum": 0,
+        "message":{}
     },
     "wrapper_spec": {
         "str": "",
@@ -20,17 +22,19 @@
         "bytes": ""
     },
     "oneof_spec": {
-        "str": "",
-        "int32": 0,
-        "bool": false,
-        "bytes": "",
-        "enum": 0
+        "str_primary": "",
+        "int32_primary": 0,
+        "bool_primary": false,
+        "bytes_primary": "",
+        "enum_primary": 0,
+        "message_primary":{}
     },
     "repeated_spec": {
         "str": [],
         "int32": [],
         "bool": [],
         "bytes": [],
-        "enum": []
+        "enum": [],
+        "message":[]
     }
 }
