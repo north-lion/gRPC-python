@@ -1,32 +1,28 @@
 {
-  "spec_test_default.json": {
-    "optional_spec": {
-      "str": "",
-      "bool": false,
-      "int32": 0,
-      "bytes": "",
-      "enum": "NOT_SPECIFIED"
-    },
-    "oneof_spec": {
-      "str": "",
-      "bool": false,
-      "int32": 0,
-      "bytes": "",
-      "enum": "NOT_SPECIFIED"
-    },
-    "wrapper_spec": {
-      "str": "",
-      "bool": "",
-      "int32": "",
-      "bytes": ""
-    },
-    "repeated_spec": {
-      "str": "[]",
-      "bool": "[]",
-      "int32": "[]",
-      "bytes": "[]",
-      "enum": "[]"
-    },
-    "scalar_spec": {}
+  "optional_spec": {
+    "str": "",
+    "bool": false,
+    "int32": 0,
+    "bytes": "",
+    "message": {},
+    "enum": "NOT_SPECIFIED"
+  },
+  "oneof_spec": {
+    "bool_primary": false,
+    "bytes_primary": "",
+    "message_primary": {},
+    "str_primary": "",
+    "int32_primary": 0,
+    "enum_primary": "NOT_SPECIFIED"
+  },
+  "wrapper_spec": {
+    "str": "",
+    "bool": false,
+    "int32": 0,
+    "bytes": ""
+  },
+  "repeated_spec": {},
+  "scalar_spec": {
+    "message": {}
   }
 }

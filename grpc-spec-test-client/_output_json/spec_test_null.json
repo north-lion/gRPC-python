@@ -1,15 +1,7 @@
 {
-  "spec_test_null.json": {
-    "optional_spec": {},
-    "oneof_spec": {},
-    "wrapper_spec": {},
-    "repeated_spec": {
-      "str": "[]",
-      "bool": "[]",
-      "int32": "[]",
-      "bytes": "[]",
-      "enum": "[]"
-    },
-    "scalar_spec": {}
-  }
+  "optional_spec": {},
+  "oneof_spec": {},
+  "wrapper_spec": {},
+  "repeated_spec": {},
+  "scalar_spec": {}
 }

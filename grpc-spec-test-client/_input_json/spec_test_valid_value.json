@@ -1,0 +1,40 @@
+{
+    "scalar_spec": {
+        "str": "hoge",
+        "int32": 1,
+        "bool": true,
+        "bytes": "AAE=",
+        "enum": 1,
+        "message":{"str":"fuga"}
+    },
+    "optional_spec": {
+        "str": "hoge",
+        "int32": 1,
+        "bool": true,
+        "bytes": "AAE=",
+        "enum": 1,
+        "message":{"str":"fuga"}
+    },
+    "wrapper_spec": {
+        "str": "hoge",
+        "int32": 1,
+        "bool": true,
+        "bytes": "AAE="
+    },
+    "oneof_spec": {
+        "str_primary": "hoge",
+        "int32_primary": 1,
+        "bool_primary": true,
+        "bytes_primary": "AAE=",
+        "enum_primary": 1,
+        "message_primary":{"str":"fuga"}
+    },
+    "repeated_spec": {
+        "str": ["","fuga"],
+        "int32": [0,1],
+        "bool": [false, true],
+        "bytes": ["","AAE="],
+        "enum": [0,1],
+        "message":[{"str":""},{"str":"hoge"}]
+    }
+}
